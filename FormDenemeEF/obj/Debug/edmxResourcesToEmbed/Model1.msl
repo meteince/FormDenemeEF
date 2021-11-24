@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="formdenemeModelStoreContainer" CdmEntityContainer="formdenemeEntities">
+    <EntitySetMapping Name="Personel">
+      <EntityTypeMapping TypeName="formdenemeModel.Personel">
+        <MappingFragment StoreEntitySet="Personel">
+          <ScalarProperty Name="PersonelId" ColumnName="PersonelId" />
+          <ScalarProperty Name="AdSoyad" ColumnName="AdSoyad" />
+          <ScalarProperty Name="Sehir" ColumnName="Sehir" />
+          <ScalarProperty Name="Alan" ColumnName="Alan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="formdenemeModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="PersonelInsert" FunctionName="formdenemeModel.Store.PersonelInsert" />
+    <FunctionImportMapping FunctionImportName="UpdatePersonel" FunctionName="formdenemeModel.Store.UpdatePersonel" />
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormDenemeEF", "FormDenemeEF\FormDenemeEF.csproj", "{0BADF043-5767-4FCA-ACBF-E3664382994C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BADF043-5767-4FCA-ACBF-E3664382994C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BADF043-5767-4FCA-ACBF-E3664382994C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BADF043-5767-4FCA-ACBF-E3664382994C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BADF043-5767-4FCA-ACBF-E3664382994C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF458351-BBF3-4352-A1C2-0DD1BB791328}
+	EndGlobalSection
+EndGlobal

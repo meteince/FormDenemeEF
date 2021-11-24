@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="formdenemeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Personel">
+    <Key>
+      <PropertyRef Name="PersonelId" />
+    </Key>
+    <Property Name="PersonelId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AdSoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Sehir" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Alan" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="formdenemeEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Personel" EntityType="Self.Personel" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <FunctionImport Name="PersonelInsert">
+      <Parameter Name="AdSoyad" Mode="In" Type="String" />
+      <Parameter Name="Sehir" Mode="In" Type="String" />
+      <Parameter Name="Alan" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="UpdatePersonel">
+      <Parameter Name="PersonelId" Mode="In" Type="Int32" />
+      <Parameter Name="AdSoyad" Mode="In" Type="String" />
+      <Parameter Name="Sehir" Mode="In" Type="String" />
+      <Parameter Name="Alan" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,16 @@
+C:\Users\Mete\source\repos\FormDenemeEF\FormDenemeEF\bin\Debug\FormDenemeEF.exe.config
+C:\Users\Mete\source\repos\FormDenemeEF\FormDenemeEF\bin\Debug\FormDenemeEF.exe
+C:\Users\Mete\source\repos\FormDenemeEF\FormDenemeEF\bin\Debug\FormDenemeEF.pdb
+C:\Users\Mete\source\repos\FormDenemeEF\FormDenemeEF\bin\Debug\EntityFramework.dll
+C:\Users\Mete\source\repos\FormDenemeEF\FormDenemeEF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mete\source\repos\FormDenemeEF\FormDenemeEF\bin\Debug\EntityFramework.xml
+C:\Users\Mete\source\repos\FormDenemeEF\FormDenemeEF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mete\source\repos\FormDenemeEF\FormDenemeEF\obj\Debug\FormDenemeEF.csprojAssemblyReference.cache
+C:\Users\Mete\source\repos\FormDenemeEF\FormDenemeEF\obj\Debug\FormDenemeEF.Properties.Resources.resources
+C:\Users\Mete\source\repos\FormDenemeEF\FormDenemeEF\obj\Debug\FormDenemeEF.csproj.GenerateResource.cache
+C:\Users\Mete\source\repos\FormDenemeEF\FormDenemeEF\obj\Debug\FormDenemeEF.csproj.CoreCompileInputs.cache
+C:\Users\Mete\source\repos\FormDenemeEF\FormDenemeEF\obj\Debug\FormDenemeEF.csproj.CopyComplete
+C:\Users\Mete\source\repos\FormDenemeEF\FormDenemeEF\obj\Debug\FormDenemeEF.exe
+C:\Users\Mete\source\repos\FormDenemeEF\FormDenemeEF\obj\Debug\FormDenemeEF.pdb
+C:\Users\Mete\source\repos\FormDenemeEF\FormDenemeEF\obj\Debug\FormDenemeEF.Login.resources
+C:\Users\Mete\source\repos\FormDenemeEF\FormDenemeEF\obj\Debug\FormDenemeEF.Main.resources
